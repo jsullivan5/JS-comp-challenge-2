@@ -8,4 +8,4 @@ The purpose of this comp was to use HTML and CSS to replicate a picture of a sit
 ![Original Comp](screenshots/original-comp.png)
 
 
-![My Replica Comp]((screenshots/my-comp.png))
+![My Replica Comp](screenshots/my-comp.png))

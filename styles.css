@@ -1,0 +1,329 @@
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+  background: #EDECED;
+  line-height: 1.2;
+  font-weight: lighter;
+}
+
+header {
+  background: #2B2B2B;
+  color: #FFF;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-login-wrapper {
+  flex-direction: column;
+  align-self: flex-end;
+  padding: 10px;
+  position: relative;
+}
+
+.admin-user-name {
+  background-image: url(assets/profile.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 17px 10%;
+  padding: 5px 30px 20px 50px;
+  display: inline-block;
+}
+
+.admin-user-name:hover {
+  color: #00B7FF;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 0;
+  display: inline-block;
+  margin-left: 45px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.logo-torch {
+  margin-left: -15px;
+}
+
+.menu-icon {
+  width: 20px;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+
+.logo-wrapper img {
+  height: 50px;
+}
+
+nav {
+  align-self: flex-end;
+  padding: 0 0 20px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+  margin-left: 40px;
+}
+
+a:hover {
+  color: #00B7FF;
+}
+
+.nav-shares {
+  background-image: url(assets/share.svg);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 17px 18%;
+  padding: 5px 5px 20px 50px;
+}
+
+.nav-playlists {
+  background-image: url(assets/song-playlist.svg);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 17px 25%;
+  padding: 5px 5px 20px 50px;
+}
+
+.nav-personal-videos {
+  background-image: url(assets/user.svg);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 17px 20%;
+  padding: 5px 5px 20px 50px;
+}
+
+main {
+  margin: auto;
+  max-width: 1376px;
+}
+
+.wrapper {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width:100%;
+
+}
+
+h2 {
+  color: #4A4A4A;
+  font-size: 2em;
+  width: 100%;
+  padding-left: 10px;
+}
+
+/*Card Styling*/
+
+.card {
+  box-shadow: 2px 2px 2px 2px lightgray;
+  width: 320px;
+  border: 2px gray;
+  margin: 10px;
+  height: 500px;
+
+}
+
+.playlist-share {
+  width: 50px;
+  margin: 22px;
+}
+
+p {
+  margin: 0;
+  word-break: break-all;
+}
+
+.views-card {
+  margin: 0;
+  position: absolute;
+  top: 13px;
+  right: 18px;
+  font-weight: lighter
+}
+
+.number-views-card {
+  position: absolute;
+  top: 30px;
+  right: 21px;
+  font-size: 40px;
+  font-weight: lighter
+}
+
+figure {
+  background-image: url(http://www.fillmurray.com/200/300);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  width: 100%;
+  height: 200px;
+  color: #FFF;
+  position: relative;
+  filter: brightness(75%);
+}
+
+figure:hover {
+  filter: brightness(100%);
+}
+
+.figure1 {
+  background-position: 0 -45px;
+}
+
+.figure2 {
+    background-image: url(http://www.fillmurray.com/199/300);
+}
+
+.figure3 {
+    background-image: url(http://www.fillmurray.com/200/299);
+}
+
+.figure4 {
+    background-image: url(http://www.fillmurray.com/198/298);
+    background-position: 0 -10px;
+}
+
+.figure5 {
+    background-image: url(http://www.fillmurray.com/198/300);
+    background-position: 0 -56px;
+}
+
+.figure6 {
+    background-image: url(http://www.fillmurray.com/198/299);
+    background-position: 0 -15px;
+}
+
+.figure7 {
+    background-image: url(http://www.fillmurray.com/199/298);
+}
+
+.figure8 {
+    background-image: url(http://www.fillmurray.com/199/297);
+}
+
+.wrapper-card-info {
+  padding: 5%;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+}
+
+time {
+  color: gray;
+  font-size: 14px;
+}
+
+.playlist-url {
+  background: lightgray;
+  width: 90%;
+  margin: 15px auto;
+  padding: 10px;
+  color: gray;
+}
+
+.playlist-text {
+  font-size: 12px;
+}
+
+.name-of-playlist {
+  font-size: 20px;
+  margin: 5px 0 15px;
+}
+
+.attachments-number {
+  font-size: 40px;
+  color: #00B7FF;
+  font-weight: lighter;
+}
+
+#dummy-flex-card {
+  display: none;
+}
+
+
+@media screen and (max-width: 1359px) {
+
+  #dummy-flex-card {
+    display: unset;
+    visibility: hidden;
+  }
+  h2 {
+    max-width: 1010px;
+    margin: 26px auto;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 1019px) {
+
+  h2 {
+    max-width: 670px;
+  }
+
+  #dummy-flex-card {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 840px) {
+
+  nav {
+    padding: 20px 0 0 0;
+  }
+
+  nav a {
+    display: block;
+
+  }
+
+  .logo-login-wrapper {
+    margin-bottom: 10px;
+  }
+
+}
+
+@media screen and (max-width: 687px) {
+
+  h2 {
+    max-width: 320px
+  }
+}
+
+@media screen and (max-width: 470px) {
+  header {
+    flex-direction: column;
+    align-items: center:
+  }
+
+  nav {
+    align-self: center;
+    order: 2;
+  }
+
+  nav a {
+    margin-left: 0;
+  }
+
+  .logo-login-wrapper {
+    align-self: center;
+    margin-bottom: -20px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .nav-personal-videos {
+    margin-bottom: 20px;
+    width: 62px;
+    background-position: 17px 35%;
+  }
+}

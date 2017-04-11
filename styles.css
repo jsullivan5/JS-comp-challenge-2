@@ -1,12 +1,12 @@
 html,
 body {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Ubuntu', sans-serif;
   background: #EDECED;
-  line-height: 1.2;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: lighter;
+  line-height: 1.2;
+  padding: 0;
+  margin: 0;
 }
 
 header {
@@ -17,8 +17,8 @@ header {
 }
 
 .logo-login-wrapper {
-  flex-direction: column;
   align-self: flex-end;
+  flex-direction: column;
   padding: 10px;
   position: relative;
 }
@@ -28,8 +28,8 @@ header {
   background-size: 20px;
   background-repeat: no-repeat;
   background-position: 17px 10%;
-  padding: 5px 30px 20px 50px;
   display: inline-block;
+  padding: 5px 30px 20px 50px;
 }
 
 .admin-user-name:hover {
@@ -37,11 +37,11 @@ header {
 }
 
 h1 {
+  display: inline-block;
+  font-family: 'Roboto Slab', serif;
   font-size: 50px;
   margin: 0;
-  display: inline-block;
   margin-left: 45px;
-  font-family: 'Roboto Slab', serif;
 }
 
 .logo-torch {
@@ -49,10 +49,10 @@ h1 {
 }
 
 .menu-icon {
-  width: 20px;
   position: absolute;
   right: 10px;
   top: 15px;
+  width: 20px;
 }
 
 .logo-wrapper img {
@@ -65,9 +65,9 @@ nav {
 }
 
 a {
-  text-decoration: none;
   color: #FFF;
   margin-left: 40px;
+  text-decoration: none;
 }
 
 a:hover {
@@ -76,25 +76,25 @@ a:hover {
 
 .nav-shares {
   background-image: url(assets/share.svg);
-  background-size: 20px;
-  background-repeat: no-repeat;
   background-position: 17px 18%;
+  background-repeat: no-repeat;
+  background-size: 20px;
   padding: 5px 5px 20px 50px;
 }
 
 .nav-playlists {
   background-image: url(assets/song-playlist.svg);
-  background-size: 20px;
-  background-repeat: no-repeat;
   background-position: 17px 25%;
+  background-repeat: no-repeat;
+  background-size: 20px;
   padding: 5px 5px 20px 50px;
 }
 
 .nav-personal-videos {
   background-image: url(assets/user.svg);
-  background-size: 20px;
-  background-repeat: no-repeat;
   background-position: 17px 20%;
+  background-repeat: no-repeat;
+  background-size: 20px;
   padding: 5px 5px 20px 50px;
 }
 
@@ -114,24 +114,24 @@ width:100%;
 h2 {
   color: #4A4A4A;
   font-size: 2em;
-  width: 100%;
   padding-left: 10px;
+  width: 100%;
 }
 
 /*Card Styling*/
 
 .card {
-  box-shadow: 2px 2px 2px 2px lightgray;
-  width: 320px;
   border: 2px gray;
-  margin: 10px;
+  box-shadow: 2px 2px 2px 2px lightgray;
   height: 500px;
+  margin: 10px;
+  width: 320px;
 
 }
 
 .playlist-share {
-  width: 50px;
   margin: 22px;
+  width: 50px;
 }
 
 p {
@@ -141,30 +141,30 @@ p {
 
 .views-card {
   margin: 0;
+  font-weight: lighter;
   position: absolute;
-  top: 13px;
   right: 18px;
-  font-weight: lighter
+  top: 13px;
 }
 
 .number-views-card {
+  font-size: 40px;
+  font-weight: lighter;
   position: absolute;
   top: 30px;
   right: 21px;
-  font-size: 40px;
-  font-weight: lighter
 }
 
 figure {
   background-image: url(http://www.fillmurray.com/200/300);
-  background-size: cover;
   background-position: center;
-  margin: 0;
-  width: 100%;
-  height: 200px;
+  background-size: cover;
   color: #FFF;
+  height: 200px;
+  margin: 0;
   position: relative;
   filter: brightness(75%);
+  width: 100%;
 }
 
 figure:hover {
@@ -223,10 +223,10 @@ time {
 
 .playlist-url {
   background: lightgray;
-  width: 90%;
+  color: gray;
   margin: 15px auto;
   padding: 10px;
-  color: gray;
+  width: 90%;
 }
 
 .playlist-text {
@@ -239,8 +239,8 @@ time {
 }
 
 .attachments-number {
-  font-size: 40px;
   color: #00B7FF;
+  font-size: 40px;
   font-weight: lighter;
 }
 
@@ -256,8 +256,8 @@ time {
     visibility: hidden;
   }
   h2 {
-    max-width: 1010px;
     margin: 26px auto;
+    max-width: 1010px;
     padding-left: 0;
   }
 }
@@ -299,8 +299,8 @@ time {
 
 @media screen and (max-width: 470px) {
   header {
+    align-items: center;
     flex-direction: column;
-    align-items: center:
   }
 
   nav {
@@ -322,8 +322,8 @@ time {
   }
 
   .nav-personal-videos {
+    background-position: 17px 35%;
     margin-bottom: 20px;
     width: 62px;
-    background-position: 17px 35%;
   }
 }
